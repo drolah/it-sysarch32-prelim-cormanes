@@ -1,0 +1,73 @@
+.pokemon-card {
+  border: 1px solid #000000;
+  padding: 32px;
+  margin: 5px;
+  width: 240px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(226, 247, 253);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 2);
+}
+
+.pokemon-card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.base-container p {
+  margin: 5px 0;
+}
+
+.button {
+  width: 80px;
+  height: 40px;
+  margin: 5px;
+  margin-bottom: 20px;
+  background-color: rgb(226, 247, 253);
+  border: 1px solid;
+} 
+
+
+header {
+  color: white;
+}
+
+.pokemon-card:hover img{
+  transition: 0.2s;
+  width: 125px;
+  height: 125px;
+}
+
+.buttonBackNext {
+  width: 90px;
+  height: 40px;
+  margin-bottom: 20px;
+  border: 1px solid;
+}
+
+.pageNumber {
+  margin-bottom: 20px;
+}
+
+body {
+  background: rgb(152, 202, 243);
+}
+
+.loading {
+  font-size: 20px;
+}
+
+.buttonPages {
+  width: 80px;
+  height: 40px;
+  margin: 5px;
+  margin-bottom: 20px;
+  background-color: rgb(173, 248, 192);
+  border: 1px solid;
+} 
+
+.buttonPages:hover {
+  color: rgb(5, 247, 255);
+}
